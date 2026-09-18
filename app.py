@@ -9,8 +9,8 @@
 from __future__ import annotations
 
 # ==================== 사용자가 입력할 API 키 ====================
-KRX_API_KEY = "C72C71B2948C45FEA5AB1D57803B6A77EECBC267"       # 한국거래소 OpenAPI 인증키 (개별 API 이용 승인 필요)
-DART_API_KEY = "ba5ac539b07759cef84a6cb54bb1167d54c5a886"      # OpenDART 인증키 (40자리)
+KRX_API_KEY = ""       # 한국거래소 OpenAPI 인증키 (개별 API 이용 승인 필요)
+DART_API_KEY = ""      # OpenDART 인증키 (40자리)
 # ==============================================================
 
 import hashlib
