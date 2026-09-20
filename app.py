@@ -115,7 +115,7 @@ if page=='마켓 라운지':
     price_cards()
     left,right=st.columns([1.65,1],gap='large')
     with left,st.container(border=True):
-        st.subheader('관심 종목의 오늘')
+        st.subheader('오늘의 관심 종목')
         rows=[]
         for c in codes:
             q,_=fetch('quote',c)
