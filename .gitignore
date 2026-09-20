@@ -1,0 +1,8 @@
+.streamlit/secrets.toml
+secrets*.toml
+.env
+__pycache__/
+.venv/
+*.log
+investment_notes*.json
+holdings*.csv
